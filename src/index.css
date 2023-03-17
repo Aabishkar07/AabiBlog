@@ -10,4 +10,115 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  }
+  #banner .row{
+    font-size: 16px;
+  }
+  #banner{
+    background-color: #25244d;
+  }
+  
+
+  .form-control-primary {
+    margin: 10px;
+    opacity: 0.2;
+    border-radius: 2px;
+  }
+
+
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  /* Navigation STyling */
+  
+  .main-nav a {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #fff;
+    display: block;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px gray;
+  }
+  .main-nav a:hover {
+    background: rgb(142, 146, 146);
+  }
+  .main-nav-ul ul {
+    display: none;
+  }
+  .main-nav-ul li:hover ul {
+    display: block;
+  }
+  .main-nav-ul ul a:before {
+    content: "\203A";
+    margin-right: 20px;
+  }
+  .main-nav .sub-arrow:after {
+    content: "\203A";
+    float: right;
+    margin-right: 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+  }
+
+
+
+
+   .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  } 
+  hr {
+    height: 5px;
+    background:rgb(15, 15, 15);
 }
+.Component{
+margin-top: 150px;
+}
+form{
+ height: 430px;
+  width: 330px;
+  border-radius: 20px;
+  margin:auto;
+  
+  background-color:rgb(233, 233, 233);
+  
+}
+
